@@ -41,7 +41,7 @@ namespace BakeryShop.Pages
                 //    $"<p>Your Total Price is {OrderQuantity * Product?.Price}</p>" +
                 //    "<p> <b>Your Order Will Delivered Within 60 Minutes</b> </p>";
 
-                ////smtp object will be disposed after it goes out of its scope
+                //smtp object will be disposed after it goes out of its scope
                 //using (var smtp = new SmtpClient())
                 //{
                 //    var googleCredential = new NetworkCredential()
@@ -62,7 +62,7 @@ namespace BakeryShop.Pages
                 //    message.From = new MailAddress("test22@gmail.com");
                 //    await smtp.SendMailAsync(message);
                 //}
-                return RedirectToPage("OrderSuccess");
+                    return RedirectToPage("OrderSuccess");
             }
             return Page();
         }
